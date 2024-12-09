@@ -40,7 +40,7 @@ sudo chown -R $USER: /home/mcserver/
 
 
 if [ "$START_SERVICE" == "true" ]; then
-echo "starting the server, to stop it, type stop and hit enter. for a comprehensive guide on servers, check out https://github.com/Judah/-Faison/mcserver/ubuntu/README.md"
+echo "starting the server, to stop it, type stop and hit enter. for a comprehensive guide on servers, check out https://github.com/Judah-Faison/mcserver/blob/main/ubuntu/README.md"
   cd /home/$USER/minecraft_bedrock/
   sudo LD_LIBRARY_PATH=. ./bedrock_server
 else
